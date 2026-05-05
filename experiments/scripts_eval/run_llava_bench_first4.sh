@@ -40,7 +40,7 @@ echo ""
 echo "==========================================="
 echo "  [1/2] Baseline on first 4 images"
 echo "==========================================="
-python eval/open_ended_vqa.py \
+python eval/llava_bench_vqa.py \
     --model-path "$CKPT_BASE" \
     --image-folder "$IMG_FOLDER" \
     --question-file "$QFILE_4" \
@@ -52,7 +52,7 @@ echo ""
 echo "==========================================="
 echo "  [2/2] Offline Scalar AW λ=0.1 on first 4"
 echo "==========================================="
-python eval/open_ended_vqa.py \
+python eval/llava_bench_vqa.py \
     --model-path "$CKPT_OFFLINE" \
     --model-base "$CKPT_BASE" \
     --image-folder "$IMG_FOLDER" \

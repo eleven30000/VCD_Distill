@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# run_train_open_ended.sh
+# run_train_coco500_online.sh
 # Train VCDD using the open-ended descriptions dataset (coco_desc_500.jsonl).
 
 set -euo pipefail
@@ -10,8 +10,8 @@ IMG_FOLDER="./data/coco/val2014"
 Q_FILE="./data/coco_desc_500.jsonl"
 OUT_DIR="./output/llava_vcdd_aw_openended_lora64_lambda09"
 
-echo ">>> Starting VCDD-AW distillation on 500 Open-Ended Descriptions (LoRA R=64)..."
-python src/vcdd_open_ended.py \
+echo ">>> Starting VCDD-AW distillation on 500 COCO-500 Online (AW) (LoRA R=64)..."
+python src/vcdd_coco500_online.py \
     --model-path "$CKPT" \
     --image-folder "$IMG_FOLDER" \
     --question-file "$Q_FILE" \

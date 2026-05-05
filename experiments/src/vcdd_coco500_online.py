@@ -1,5 +1,5 @@
 """
-vcdd_aw.py - VCD Distillation with Agreement-Weighting (VCDD-AW) for LLaVA 1.5
+vcdd_coco500_online.py - VCD Distillation with Agreement-Weighting (VCDD-AW, Online, COCO-500 dataset) (VCDD-AW) for LLaVA 1.5
 
 Architecture:
   Single model instance acts as both teacher and student.

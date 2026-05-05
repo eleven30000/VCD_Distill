@@ -14,7 +14,7 @@ CKPT_VCDD_NEW="./output/llava_vcdd_aw_openended_lora64_lambda09"
 echo "=========================================="
 echo "  Evaluating Baseline on LLaVA-Bench..."
 echo "=========================================="
-python eval/open_ended_vqa.py \
+python eval/llava_bench_vqa.py \
     --model-path "$CKPT_BASE" \
     --image-folder "$IMG_FOLDER" \
     --question-file "$QFILE" \
@@ -24,7 +24,7 @@ python eval/open_ended_vqa.py \
 echo "=========================================="
 echo "  Evaluating VCD (Runtime) on LLaVA-Bench..."
 echo "=========================================="
-python eval/open_ended_vqa.py \
+python eval/llava_bench_vqa.py \
     --model-path "$CKPT_BASE" \
     --image-folder "$IMG_FOLDER" \
     --question-file "$QFILE" \
@@ -35,7 +35,7 @@ python eval/open_ended_vqa.py \
 echo "=========================================="
 echo "  Evaluating VCDD (Open-Ended) on LLaVA-Bench..."
 echo "=========================================="
-python eval/open_ended_vqa.py \
+python eval/llava_bench_vqa.py \
     --model-path "$CKPT_VCDD_NEW" \
     --model-base "$CKPT_BASE" \
     --image-folder "$IMG_FOLDER" \
