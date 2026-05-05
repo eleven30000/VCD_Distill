@@ -1,0 +1,25 @@
+
+Category                        Score   MaxScore    Accuracy%
+--------------------------------------------------------------
+  OCR                              27         40        40.0%
+  artwork                         262        400        40.5%
+  celebrity                       227        340        40.0%
+  code_reasoning                   17         40        15.0%
+  color                            50         60        73.3%
+  commonsense_reasoning            97        140        47.1%
+  count                            49         60        70.0%
+  existence                        54         60        80.0%
+  landmark                        297        400        52.0%
+  numerical_calculation            22         40        20.0%
+  position                         36         60        40.0%
+  posters                         215        294        49.0%
+  scene                           326        400        63.5%
+  text_translation                 23         40        25.0%
+--------------------------------------------------------------
+  Perception (P)                 1543       2114
+  Cognition  (C)                  159        260
+  TOTAL      (P+C)               1702       2374
+
+  Perception Score : 1543
+  Cognition  Score : 159
+  Total      Score : 1702

@@ -1,0 +1,25 @@
+
+Category                          Acc     Acc+      Score  (/200)
+--------------------------------------------------------------
+  OCR                          70.00%   40.00%     110.00
+  artwork                      66.50%   41.50%     108.00
+  celebrity                    66.47%   41.18%     107.65
+  code_reasoning               37.50%   15.00%      52.50
+  color                        78.33%   60.00%     138.33
+  commonsense_reasoning        63.57%   40.00%     103.57
+  count                        66.67%   43.33%     110.00
+  existence                    95.00%   90.00%     185.00
+  landmark                     78.75%   62.00%     140.75
+  numerical_calculation        50.00%   25.00%      75.00
+  position                     71.67%   53.33%     125.00
+  posters                      69.73%   42.86%     112.59
+  scene                        80.00%   62.50%     142.50
+  text_translation             50.00%   15.00%      65.00
+--------------------------------------------------------------
+  Perception (P)                                            1279.82  (/2000)
+  Cognition  (C)                                             296.07  (/800)
+  TOTAL      (P+C)                                          1575.89  (/2800)
+
+  Perception Score : 1279.82
+  Cognition  Score : 296.07
+  Total      Score : 1575.89

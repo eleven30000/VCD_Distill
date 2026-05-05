@@ -1,23 +1,41 @@
-# Python
-*.pyc
-__pycache__
-*.egg-info
-dist
-*.csv
-*.tsv
-result
-playground/data
-val2014
+# ===== 大型模型與資料集（不上傳 GitHub）=====
+experiments/checkpoints/
+experiments/data/
+experiments/output/
+experiments/images.zip
+experiments/__pycache__/
 
-answer_files_*
-build
-result
-POPE/*
-checkpoints/*
-bitsandbytes/*
-playground/data/val2014
-cuda_install.sh
-cuda_11.6.2_510.47.03_linux.run
+# ===== 保留 output 目錄結構但排除大型模型檔 =====
+experiments/output/**/pytorch_model*.bin
+experiments/output/**/adapter_model.bin
+experiments/output/**/optimizer.pt
 
-.vscode/launch.json
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
 
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== 系統檔案 =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===== 環境 =====
+.env
+.venv
+venv/
+env/
+
+# ===== 日誌 =====
+*.log
