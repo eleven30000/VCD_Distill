@@ -1,3 +1,13 @@
+# VCDD: Visual Contrastive Decoding with Distillation
+
+> **This project is based on [VCD (Visual Contrastive Decoding)](https://github.com/DAMO-NLP-SG/VCD)** by DAMO-NLP-SG.
+> Original work: *Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding* — [arXiv:2311.16922](https://arxiv.org/abs/2311.16922)
+>
+> This repository extends VCD by implementing an **offline knowledge distillation** strategy (VCDD) to train a LoRA adapter for LLaVA-1.5, aiming to mitigate object hallucinations without inference-time overhead.
+> Licensed under [Apache License 2.0](LICENSE).
+
+---
+
 <p align="center" width="100%">
 <a target="_blank"><img src="figs/VCD_logo_title.png" alt="Visual Contrastive Decoding" style="width: 75%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
